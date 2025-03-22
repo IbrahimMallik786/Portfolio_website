@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CSS File link-->
+  <link rel="stylesheet" href="style.css">
+  <title>Ibrahim Mallick </title>
+</head>
+<body>
+  
+   <!-- ====Header Start====-->
+    <header>
+      
+     
+      <!--NavBar-->
+      <nav>
+        <ul>
+          
+          <h2>Menu <i class="fa-solid fa-angle-down"></i></h2>
+          <hr>
+          <li><a href="#home" class="active"><i class="fa-duotone fa-solid fa-house"></i> Home</a></li>
+          <hr>
+          <li><a href="#about"><i class=" fa-duotone fa-solid fa-user"></i> About Me</a></li>
+          <hr>
+          <li><a href="#resume"><i class=" fa-duotone fa-solid fa-file-text"></i> Resume</a></li>
+          <hr>
+          <li><a href="#portfolio"><i class=" fa-duotone fa-solid fa-briefcase"></i> Projects</a></li>
+          <hr>
+          <li><a href="#contact"><i class="fa-duotone fa-solid fa-envelope"></i> Contact</a></li>
+          <hr>
+        </ul>
+      </nav>
+       
+      <!--------------------------------->
+      <br>
+      <nav>
+      <ul>
+      <h2>Let's connect <i class="fa-solid fa-angle-down"></i></h2>
+      <hr>
+         <span>
+          <li><a id="linkedin"  href="https://www.linkedin.com/in/ibrahim-mallick92/" ><i class="fa-brands fa-linkedin" style="color: #043358;"></i> Linkedln</a></li>
+          <hr>
+          <li> <a id="github"  href="https://github.com/IbrahimMallik786"><i class="fa-brands fa-github" style="color: #1b1c1d;"></i>Github</a></li>
+          <hr>
+          <li><a id="whatsApp" target="_blank" href="https://wa.me/+919339737778"><i class="fa-brands fa-whatsapp" style="color: #0bed07;"></i>WhatsApp</a></li>
+          <hr>
+          <li><a id="instagram"  href="https://www.instagram.com/ibrahimmallick_92/?hl=en"><i class="fa-brands fa-instagram" style="color: #c2004e;"></i>Instagram</a></li>
+          <hr>
+          <li><a id="telegram"  href="https://t.me/ibrahim001011"><i class="fa-brands fa-telegram" style="color: #094bbe;"></i>Telegram</a></li>
+          <hr>
+      </ul>
+    </nav>
+    </header>
+
+    <!--Mobile Nav Toggle-->
+    <i class="fa-solid fa-bars" id="MenuBtn"></i>
+   <!-- ====Header End====-->
+
+
+  <!-- ====ALL BODY CONTENT-->
+
+  <main>
+
+    <!-- ===Home section Start ===-->
+     
+     <section id="home">
+      <div class="home-row">
+        
+         <span class="subheading">HELLO!</span>
+         <br><br>
+        <h1>I'm <span>Ibrahim Mallick.</span></h1>
+        
+        <p><span class="auto-input"></span></p>
+          <br>
+        <h2 >A passionate Software <br> Engineer</h2>
+        <button id="my-work"><a target="_blank" href="https://github.com/IbrahimMallik786" class=>My works</a></button> &nbsp;&nbsp;
+        <button class="download-cv"><a  target="_blank" href="https://drive.google.com/file/d/1aAf3XZLIvkQNKiaS0YEptBj8_8aM1HQp/view?usp=sharing">Download cv</a></button>
+       
+      </div>
+       
+     </section>
+     <!-- ===Home section End ===-->
+     
+     <!-- ===About section Start-->
+       <section id="about">
+
+        <h1 class="sub-heading" style="color:#10375C">About Me</h1>
+        <div class="divider"></div>
+        <p class="sub-para">I'm Ibrahim Mallick, a passionate computer science engineering student with a focus on  web development. I have a strong command of programming languages like Java, JavaScript, and Python, which I utilize to build robust and efficient applications. I am skilled in frontend development using React.js and have expertise in backend development using Node.js. I have hands-on experience with databases like MongoDB for efficient data storage and retrieval. Additionally, I am proficient in using Figma for UI/UX design and have knowledge of working with open APIs. With a constant thirst for knowledge, I actively participate in hackathons and workshops to enhance my skills.</p>
+
+        <div class="about-col">
+          <!--img-col-->
+          <div class="img-col">
+            <img src="me5.jpg" alt="...">
+          </div>
+
+          <!--information-->
+          <div class="info-col">
+            <h2 >Full Stack Web Developer!</h2> 
+            <br>
+            <h2  style="color:rgb(234, 0, 0);">Skills</h2>
+            
+
+            <div class="tab-titles">
+              <div class="tab-links active-link" onclick="opentab('Frontend')">Frontend</div>
+              <div class="tab-links" onclick="opentab('Backend')">Backend</div>
+              <div class="tab-links" onclick="opentab('Databases')">Databases</div>
+            </div>
+
+            <div class="tab-contents active-tab" id="Frontend">
+              <ul>
+                <li><i class="fa-brands fa-html5" style="color: #ff933b;"></i>&nbsp;&nbsp;<span><strong>Html</strong></span></li>
+                <li><i class="fa-brands fa-css3-alt" style="color: #74C0FC;"></i>&nbsp;&nbsp;<span><strong>Css</strong></span></li>
+                <li><i class="fa-brands fa-js" style="color: #FFD43B;"></i>&nbsp;&nbsp;<span><strong>JavaScript</strong></span></li>
+                <li><i class="fa-brands fa-bootstrap" style="color: #B197FC;"></i>&nbsp;&nbsp;<span><strong>Bootstrap</strong></span></li>
+                <li><i class="fa-brands fa-react" style="color: #74C0FC;"></i>&nbsp;&nbsp;<span><strong>ReactJS</strong></span></li>
+              </ul>
+            </div>
+              
+            <div class="tab-contents" id="Backend">
+              <ul>
+                <li><i class="fab fa-node-js" style="color: #08f744;"></i>&nbsp;&nbsp;<span><strong>NodeJs</strong></span></li>
+                <li><img src="exp.png" style="height:50px;width:55px">&nbsp;<span><strong>ExpressJs</strong></span></li>
+                <li><i class="fa-brands fa-java" style="color: #fb1818;"></i>&nbsp;&nbsp;<span><strong>  Java</strong></span></li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="Databases">
+              <ul>
+                <li><img src="mogoDB.png" style=" height:50px;width:55px">&nbsp;&nbsp;<span><strong>MongoDB</strong></span></li>
+                <li><i class="fa-solid fa-database" style="color: #100f10;"></i>&nbsp;&nbsp;</nbsp><span><strong>  MySQL</strong></span></li>
+               
+              </ul>
+            </div>
+          </div>
+        </div>
+       </section>
+      <!-- ===About section End-->
+       <!------------------------------------------------------------------------------------------------------->
+   
+   <!--  --------------------------------------------------------------------------------------------------- -->
+     
+   <!--------------------------------------------------------------------------------------------------------------->
+   <!--  === Resume Section Start-->
+     <section id="resume">
+      
+      <h1 class="sub-heading" style="color:#10375C">Resume</h1>
+      <div class="divider"></div>
+      <p class="sub-para" >Motivated and enthusiastic fresher MERN Stack Web Developer with a strong foundation in MongoDB, Express.js, React, and Node.js. I am passionate about continuous learning and staying updated with the latest technologies. My goal is to leverage my skills in full-stack development to contribute to innovative projects and deliver exceptional user experiences.</p>
+      <br>
+      <button class="resume-btn"><a target="_blank" href="https://drive.google.com/file/d/1aAf3XZLIvkQNKiaS0YEptBj8_8aM1HQp/view?usp=sharing" class="btn btn-primary py-4 px-5">Download Resume</a></button>
+      
+      <div class="education-heading">
+        <h1 class="big-4">Education</h1>
+        <div class="underline"></div>
+      </div>
+     <div class="education-section">
+      <div class="education">
+        <span class="date">2021-2025</span>
+        <h2>Bachelor of Technology</h2>
+        <span class="position">Supreme Knowledge Foundation </span>
+        <p class="mt-4"><b>CGPA: </b>7.19</p>
+      </div>
+      
+      <div class="education">
+        <span class="date">2019-2020</span>
+        <h2>Higher Secondary</h2>
+        <span class="position">Patna Vivekananda Siksha Niketan</span>
+        <br>
+        <p class="mt-4"><b>Percentage: </b>76.6</p>
+      </div>
+    </div>
+
+     </section>
+     <!--  === Resume Section End-->
+
+     <!--  ----------------------------------------------------------------------------------------------------------->
+       <!-- ==== Portfolio section Start -->
+        <section id="portfolio">
+          <h1 class="sub-heading"style="color:#10375C" >Projects</h1>
+          <div class="divider"></div>
+          <p class="sub-para">Below are some web application projects developed and maintained using MERN Stack Development.</p>
+           <br>
+          <!-- All Cards for projects-->
+          <div class="mydiv">
+          <img src="todo_IMG.jpg" alt="Todo App">
+          <div class="desc">
+          <h2>Todo App</h2>
+         <p>Tech Stack:Html, Css, Javascript.</p> <br>
+         
+         <button class="project-div"><a href="https://ibrahimmallik786.github.io/Todo_List/">Visit Website</a></button>
+        &nbsp;&nbsp;
+        <button class="project-div"><a href="https://github.com/IbrahimMallik786/Todo_List">Github repo</a></button>
+        </div>
+         </div>
+
+        <!-- Second div -->
+        <div class="mydiv">
+        <img src="amazon1.webp" alt="amazon clone">
+        <div class="desc">
+        <h2>Amazon UI Clone</h2>
+        <p>Tech stack: Html, Css.  </p>
+        <br>
+        <button class="project-div"><a href="https://ibrahimmallik786.github.io/Amazon-Clone/">Visit Website</a></button>
+        &nbsp;&nbsp;
+        <button class="project-div"><a href="https://github.com/IbrahimMallik786/Amazon-Clone">Github repo</a></button>
+       
+        </div>
+       </div>
+
+       <!-- third div -->
+       <div class="mydiv">
+        <img src="portfolioImg.png" alt="portfolio website">
+        <div class="desc">
+        <h2>Personal <br> Portfolio Website</h2>
+        <p>Tech stack: Html, Css, JavaScript  </p>
+        <br>
+        <button class="project-div"><a href="#">Visit Website</a></button>
+        &nbsp;&nbsp;
+        <button class="project-div"><a href="https://github.com/IbrahimMallik786/">Github repo</a></button>
+       
+        </div>
+       </div>
+
+
+       <!--fourth div -->
+       <div class="mydiv">
+        <img src="simon-says.jpg" alt="simon says game">
+        <div class="desc">
+        <h2>Simon <br>Says Game</h2>
+        <p>Tech stack: Html, Css, JavaScript. </p>
+        <br>
+        <button class="project-div"><a href="https://ibrahimmallik786.github.io/Simon_Says_Game/">Visit Website</a></button>
+        &nbsp;&nbsp;
+        <button class="project-div"><a href="https://github.com/IbrahimMallik786/Simon_Says_Game">Github repo</a></button>
+       
+        </div>
+       </div>
+
+             
+          </div>
+        </section>
+        <!-- ==== Portfolio section End -->
+
+        <!-- -------------------------------------------------------------------------------------------------- -->
+         
+         <!----------------------------------------------------------------------------------------------->
+         <!--=====Contact Section Start-->
+
+         <section id="contact">
+          <h1 class="sub-heading" style="color:#10375C">Contact </h1>
+          <div class="divider"></div>
+          <p class="sub-para">Below are the details to reach out to me!</p>
+            
+          <div class="contact-row">
+
+            <!-- Left  Contact Col-->
+            <div class="contact-left">
+              <!-- Email Box-->
+               <div class="icon-box">
+                <div class="icon">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="info">
+                  <h4>Email:</h4>
+                  <p>ibrahimmallik976@gmail.com</p>
+                </div>
+               </div>
+
+               <!-- Call Box-->
+               <div class="icon-box">
+                <div class="icon">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="info">
+                  <h4>Call:</h4>
+                  <p>(+91) 9339737778</p>
+                </div>
+               </div>
+
+               <!-- Location Box-->
+               <div class="icon-box">
+                <div class="icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="info">
+                  <h4>Location:</h4>
+                  <p>Debra, West Bengal, India</p>
+                </div>
+               </div>
+
+               <!-- Map-->
+                <div class="map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87581.45209303932!2d87.54124305445498!3d22.363346569914633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02b2c07b6a19a5%3A0x62b81f20213e7b1a!2sDebra%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1739890502458!5m2!1sen!2sin" width="100%" height="250" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+
+            <!-- Right Contact Col-->
+             <div class="contact-right">
+              <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" id="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" id="Email" placeholder="Your Email" required>
+                <textarea name="Message" id="Message"rows="9" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message">
+              </form>
+              <span id="msg"> </span>
+              </div>
+             
+             </div>
+
+          </div>
+             <!--==arrow btn-->
+             <a href="#"><i class="fa-solid fa-arrow-up" id="arrowUp"></i></a>
+
+             
+             <a id="whatsApp2"  href="https://wa.me/+919339737778"><i class="fa-brands fa-whatsapp fa-fade" style="color: #0bed07;"></i></a> 
+            
+         </section>
+         <!--=====Contact Section End-->
+         <p style="text-align: center;">© <span style="color:#b85504">2025</span> Ibrahim <br>Mallick. <span style="color:#048f27">All</span> Rights Reserved.</p>
+        
+  </main>
+
+  <!--Type.JS File (For typing Effects)-->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!--Js File link-->
+  <script src="script.js"></script>
+
+  <!--Font Awesome JS File (Icon File)-->
+  <script src="https://kit.fontawesome.com/5772145d20.js" crossorigin="anonymous"></script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyxroR0hZgzjwz5xEejYJkBdEiLL6WP0VeDei7MuX4nRZaMWP32lLnR4yuyTn2q24GP/exec'
+
+    const form = document.forms['submit-to-google-sheet']
+  
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message Sent successfully"
+          setTimeout(function(){
+            msg.innerHTML = "";
+          },4000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
