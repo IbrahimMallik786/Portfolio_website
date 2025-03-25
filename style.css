@@ -28,9 +28,9 @@
   height:100vh;
   width:300px;
   padding:15px 30px;
-  background-color:var(--bgColor);
-  border-right:4px solid rgb(215, 109, 109);
-  border-bottom:4px solid rgb(212, 104, 190);
+  background-color:rgb(34, 32, 32);
+  border-right:4px solid rgb(41, 28, 28);
+  border-bottom:4px solid rgb(16, 15, 16);
   overflow-y:auto;
   position :fixed;
   left:0;
@@ -56,9 +56,9 @@ header nav ul li a{
   text-decoration: none;
   padding:5px 10px;
   margin:10px 0;
-  color:rgb(5, 5, 5);
+  color:rgb(251, 246, 246);
   font-weight: 450;
-  font-size:22px;
+  font-size:19px;
   letter-spacing: 0.6px;
 
 }
@@ -71,15 +71,15 @@ header nav ul li a i{
 
  header nav ul li a:hover i{
   
-  color:	rgb(8, 8, 8);
+  color:	rgb(245, 241, 241);
 }
 
 header nav ul li a:hover{
   font-size:23px;
-  color:#0e9102;
+  color:#910202;
 }
 header nav ul li a:active{
-  color:#01f927;
+  color:#f94b01;
 }
 
 
@@ -94,7 +94,7 @@ header nav ul li a:active{
   width:40px;
   height:40px;
   color:white;
-  background-color: #3d3d3e;
+  background-color: #1a1a1c;
   border:1px light rgb(116, 115, 115);
   text-align: center;
   line-height: 42px;
